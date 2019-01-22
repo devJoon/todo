@@ -1,0 +1,109 @@
+    html {
+        background-color: gainsboro;
+        width: 1024px;
+        margin: auto;
+        height: 100%;
+    }
+    
+    body {
+        margin-top: 3%;
+        margin-bottom: 3%;
+        background-color: white;
+        min-height: 100%;
+        1text-align: center;
+    }
+    
+    table {
+        float: left;
+        margin: 35px 5px 15px 5px;
+        border-collapse: separate;
+        border-spacing: 0.5em;    
+        width: 315px;
+    }
+    
+    div#tables {
+        display: inline-block;        
+    }
+    
+    table th {
+        background: #086486;
+        height: 60px;
+        text-align: left;
+        font-size: 20px;
+        color: white;
+        text-indent: 10px; 
+    }
+    
+    td {
+        text-align: left;
+        background-color: #B6E9FC;
+        height: 90px;
+        border-bottom: 10px;
+        text-indent: 10px;
+    }
+    
+    div.task_title {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    
+    div.task_info {        
+        font-size: 13px;
+    }
+    
+    input {
+        margin-right: 5px;
+    }
+    
+    header {
+        padding-top: 35px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    div#inputdiv {
+        width: 420px;
+        margin: auto;
+        padding: 20px;
+        line-height: 30px;
+        color: #717171;
+    }
+    
+    input.textbox {        
+        height: 30px;
+        margin-bottom: 15px;
+        font-size: 15px;
+        padding-left: 7px;
+    }
+    
+    div#select {
+        color: black;
+        font-size: 14px;        
+    }
+    
+    input[type="radio"]{
+        1margin: 0px 10px 0px 10px;
+        margin-left: 30px;        
+    }
+    
+    input#previous {
+        float: left;
+        background-color: white;
+        height: 30px;
+        width: 100px;
+        border: 1px solid black;
+        text-decoration: underline;
+    }
+    
+    input#submit, input#clear {
+        float: right;
+        color: white;
+        background-color: #18BFFF;
+        height: 30px;
+        width: 100px;
+        border-style: none;
+        margin-left: 10px        
+    }

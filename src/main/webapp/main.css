@@ -1,0 +1,83 @@
+    html {
+        background-color: gainsboro;
+        width: 1024px;
+        margin: auto;
+        height: 100%;
+    }
+    
+    body {
+        margin-top: 3%;
+        margin-bottom: 3%;
+        background-color: white;
+        min-height: 100%;
+        text-align: center;
+    }
+    
+    table {
+        float: left;
+        margin: 35px 5px 15px 5px;
+        border-collapse: separate;
+        border-spacing: 0.5em;    
+        width: 315px;
+    }
+    
+    div#tables {
+        display: inline-block;        
+    }
+    
+    table th {
+        background: #086486;
+        height: 60px;
+        text-align: left;
+        font-size: 20px;
+        color: white;
+        text-indent: 10px; 
+    }
+    
+    td {
+        text-align: left;
+        background-color: #B6E9FC;
+        height: 90px;
+        border-bottom: 10px;
+        text-indent: 10px;
+    }
+    
+    div.task_title {
+        font-weight: bold;
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    
+    div.task_info {        
+        font-size: 13px;
+    }
+    
+    input {
+        margin-right: 5px;
+    }
+    
+    form {
+        float: right;
+    }
+    
+    input#addtodo {        
+        color: white;
+        background-color: #18BFFF;
+        height: 30px;
+        width: 170px;
+        border-style: none;
+    }
+    
+    header {
+        margin-right: 30px;
+        padding-top: 35px;
+        text-align: left;
+    }
+    
+    span#title {
+        font-size: 25px;
+        font-weight: bold;
+        color: #086486;
+        display: inline-block;
+        transform: rotate(-25deg);
+    }

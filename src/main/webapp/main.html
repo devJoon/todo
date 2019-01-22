@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>나의 해야할 일들</title>
+<link href="main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<!--1. MAIN 화면 구성 디자인하기 <br>
+2. 디자인을 CSS로 빼기  <br>
+   여기서부터 시작이야~~! 잘해봅시당...-->
+    
+    <header>
+        
+    <span id="title">나의 해야할 일들</span>
+        
+    <form action="/TodoFormServlet" method="get">
+    <input type="submit" id="addtodo" value="새로운 TODO 등록"/>
+    </form>
+        
+    </header>
+    
+    <div id="tables">
+    <table id="todo_table">
+        <tr>
+            <th>
+            TODO
+            </th>
+        </tr>
+        <tr>
+            <td>
+            <div class="task_title">나는 테이블이란다.</div>
+            <div class="task_info">등록날짜:2018.03.10, 이준희, 우선순위1
+            <input type='button' value='→'/>
+            </div>    
+            </td>            
+        </tr>    
+        <tr>
+            <td>
+            나는 테이블이란다.
+                <input type='button' value='->'/>
+            </td>            
+        </tr>    
+        <tr>
+            <td>
+            나는 테이블이란다.
+            </td>            
+        </tr>    
+    </table>
+    <table id="doing_table">
+        <tr>
+            <th>
+            DOING
+            </th>
+        </tr>
+        <tr>
+            <td>
+            너는 무엇?
+            </td>
+        </tr>    
+    </table>
+    <table id="done_table">
+        <tr>
+            <th>
+            DONE
+            </th>
+        </tr>
+        <tr>
+            <td>
+            다했단다.
+            </td>
+        </tr>    
+    </table>
+    </div>
+    
+</body>
+    
+</html>
